@@ -1,321 +1,470 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
     <header class="bg-[#A95094]">
-        <nav class="flex items-center justify-between max-w-350 m-auto p-10">
-            <img src="./лого.png" alt="">
-            <div class="text-[20px] text-white flex gap-5">
-                <p>Диагностика</p>
-                <p>Стоимость</p>
-                <p>Мастера</p>
-                <p>Отзывы</p>
-                <p>Вопросы</p>
-            </div>
-            <div class="flex gap-5">
-                <button class="flex items-center gap-3 text-white text-[20px]"><img src="./geo.png" alt="">Москва</button>
-                <button class="py-3 px-10 rounded-2xl border border-solid border-[#FFC464] text-[#FFC464] text-[20px]">Позвонить</button>
-            </div>
-        </nav>
-        <main class="flex items-center justify-between max-w-350 m-auto p-10 gap-5">
-            <div>
-                <img src="./Screenshot 2025-12-26 102045.png" alt="">
-            </div>
-            <div>
-                <h1 class="text-[50px] font-bold text-white mb-5">Ремонт стиральных <br> машин на дому c <br> годовой гарантией</h1>
-                <p class="text-[20px] text-white mb-5"><span class="text-[#FFC464]">Отремонтируем на дому</span> или бесплатно завезем <br> и доставим обратно из сервисного центра</p>
-                <button class="py-3 px-20 bg-black text-white text-[20px] rounded-2xl">Заказать звонок</button>
-            </div>
-        </main>
-        <div class="flex justify-around max-w-350 m-auto p-5 bg-black text-white rounded-2xl">
-            <p><span class="text-[#FFC464]">Мы открыты и принимаем заказы до 21:00</span>, позвоните сейчас и мы сделаем скидку 15%</p>
-            <p class="text-[#FFC464]">Получить скидку</p>
+      <nav
+        class="lg:flex block items-center justify-between max-w-350 m-auto p-10"
+      >
+        <img src="./лого.png" alt="" />
+        <div class="text-[20px] text-white lg:flex hidden gap-5">
+          <p>Диагностика</p>
+          <p>Стоимость</p>
+          <p>Мастера</p>
+          <p>Отзывы</p>
+          <p>Вопросы</p>
         </div>
+        <div class="lg:flex hidden gap-5">
+          <button class="flex items-center gap-3 text-white text-[20px]">
+            <img src="./geo.png" alt="" />Москва
+          </button>
+          <button
+            class="py-3 px-10 rounded-2xl border border-solid border-[#FFC464] text-[#FFC464] text-[20px]"
+          >
+            Позвонить
+          </button>
+        </div>
+      </nav>
+      <main
+        class="lg:flex block items-center justify-between max-w-350 m-auto p-10 gap-5"
+      >
+        <div>
+          <img src="./Screenshot 2025-12-26 102045.png" alt="" />
+        </div>
+        <div>
+          <h1 class="text-[50px] font-bold text-white mb-5">
+            Ремонт стиральных <br />
+            машин на дому c <br />
+            годовой гарантией
+          </h1>
+          <p class="text-[20px] text-white mb-5">
+            <span class="text-[#FFC464]">Отремонтируем на дому</span> или
+            бесплатно завезем <br />
+            и доставим обратно из сервисного центра
+          </p>
+          <button
+            class="py-3 px-20 bg-black text-white text-[20px] rounded-2xl"
+          >
+            Заказать звонок
+          </button>
+        </div>
+      </main>
+      <div
+        class="lg:flex blockjustify-around max-w-350 m-auto p-5 bg-black text-white rounded-2xl"
+      >
+        <p>
+          <span class="text-[#FFC464]"
+            >Мы открыты и принимаем заказы до 21:00</span
+          >, позвоните сейчас и мы сделаем скидку 15%
+        </p>
+        <p class="text-[#FFC464]">Получить скидку</p>
+      </div>
     </header>
-    <div  class="flex items-center justify-between max-w-350 m-auto p-10 gap-5 text-[20px] font-bold mt-25">
-            <div>
-                <img src="./Group 819.png" alt="">
-                <p>Фирменные запчасти <br> у мастеров в наличии</p>
-            </div>
-            <div>
-                <img src="./Group 818.png" alt="">
-                <p>Большинство <br> ремонтов делаем <br> за час на дому</p>
-            </div>
-            <div>
-                <img src="./Group 811.png" alt="">
-                <p>Профессиональный <br> инструмент под <br> любую задачу</p>
-            </div>
-            <div>
-                <img src="./Group 779.png" alt="">
-                <p>Квалифицированные <br> и опытные мастера</p>
-            </div>
-        </div>
-     <div class="bg-gray-50">
-        <div class="flex items-center justify-between max-w-350 m-auto p-10 gap-5 mt-25">
-            <div>
-                <p class="text-[20px] font-bold text-[#96317D]">Онлайн-диагностика</p>
-                <h1 class="text-[45px] font-bold mb-10">Какая у вас проблема?</h1>
-                <div class="flex gap-5 mb-5">
-                    <button class="py-3 px-10 rounded-2xl bg-[#96317D] text-white">Не включается</button>
-                    <button class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold">Не включается</button>
-                    <button class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold">Не нагревает воду</button>
-                </div>
-                <button class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold mb-5">Все работет, но мне скучно и я хочу пообщаться с мастером</button>
-                <div  class="flex gap-5 mb-5">
-                    <button class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold">Не крутится барабан</button>
-                    <button class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold">Не работает кнопка включения</button>
-                </div>
-                <div  class="flex gap-5 mb-5">
-                    <button class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold">Не выключается</button>
-                    <button class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold">Иная проблема</button>
-                    <button class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold">Не крутится барабан</button>
-                </div>
-                <div  class="flex gap-5 mb-15">
-                    <button class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold">Не крутится барабан</button>
-                    <button class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold">Не работает кнопка включения</button>
-                </div>
-                <div  class="flex gap-5">
-                    <img src="./Group 817.png" alt="">
-                    <p class="text-[20px] font-bold">Выберите проблему и узнайте её решение</p>
-                </div>
-            </div>
-            <img src="./Screenshot 2025-12-26 104553.png" alt="">
-        </div>
-     </div>
-     <div class="text-[20px] mt-25">
+    <div
+      class="lg:flex block items-center justify-between max-w-350 m-auto p-10 gap-5 text-[20px] font-bold mt-25"
+    >
+      <div>
+        <img src="./Group 819.png" alt="" />
+        <p>
+          Фирменные запчасти <br />
+          у мастеров в наличии
+        </p>
+      </div>
+      <div>
+        <img src="./Group 818.png" alt="" />
+        <p>
+          Большинство <br />
+          ремонтов делаем <br />
+          за час на дому
+        </p>
+      </div>
+      <div>
+        <img src="./Group 811.png" alt="" />
+        <p>
+          Профессиональный <br />
+          инструмент под <br />
+          любую задачу
+        </p>
+      </div>
+      <div>
+        <img src="./Group 779.png" alt="" />
+        <p>
+          Квалифицированные <br />
+          и опытные мастера
+        </p>
+      </div>
+    </div>
+    <div class="bg-gray-50">
+      <div
+        class="lg:flex block items-center justify-between max-w-350 m-auto p-10 gap-5 mt-25"
+      >
         <div>
-            <h1 class="text-[40px] text-center font-bold">Стоимость работ</h1>
+          <p class="text-[20px] font-bold text-[#96317D]">Онлайн-диагностика</p>
+          <h1 class="text-[45px] font-bold mb-10">Какая у вас проблема?</h1>
+          <div class="lg:flex block gap-5 mb-5">
+            <button class="py-3 px-10 rounded-2xl bg-[#96317D] text-white">
+              Не включается
+            </button>
+            <button
+              class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold"
+            >
+              Не включается
+            </button>
+            <button
+              class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold"
+            >
+              Не нагревает воду
+            </button>
+          </div>
+          <button
+            class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold mb-5"
+          >
+            Все работет, но мне скучно и я хочу пообщаться с мастером
+          </button>
+          <div class="lg:flex block gap-5 mb-5">
+            <button
+              class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold"
+            >
+              Не крутится барабан
+            </button>
+            <button
+              class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold"
+            >
+              Не работает кнопка включения
+            </button>
+          </div>
+          <div class="lg:flex block gap-5 mb-5">
+            <button
+              class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold"
+            >
+              Не выключается
+            </button>
+            <button
+              class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold"
+            >
+              Иная проблема
+            </button>
+            <button
+              class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold"
+            >
+              Не крутится барабан
+            </button>
+          </div>
+          <div class="lg:flex block gap-5 mb-15">
+            <button
+              class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold"
+            >
+              Не крутится барабан
+            </button>
+            <button
+              class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold"
+            >
+              Не работает кнопка включения
+            </button>
+          </div>
+          <div class="lg:flex block gap-5">
+            <img src="./Group 817.png" alt="" />
+            <p class="text-[20px] font-bold">
+              Выберите проблему и узнайте её решение
+            </p>
+          </div>
         </div>
-        <div class="flex items-center justify-between max-w-350 m-auto p-10">
-            <p>Услуга</p>
-            <div class="flex gap-30">
-                <p>Стоимость запчасти</p>
-                <p>Стоимость работ</p>
-            </div>
+        <img src="./Screenshot 2025-12-26 104553.png" alt="" />
+      </div>
+    </div>
+    <div class="text-[20px] mt-25">
+      <div>
+        <h1 class="text-[40px] text-center font-bold">Стоимость работ</h1>
+      </div>
+      <div class="flex items-center justify-between max-w-350 m-auto p-10">
+        <p>Услуга</p>
+        <div class="flex gap-30">
+          <p>Стоимость запчасти</p>
+          <p>Стоимость работ</p>
         </div>
-        <hr class="max-w-350 m-auto">
-        <div class="flex items-center justify-between max-w-350 m-auto p-10">
-            <p>Выезд мастера</p>
-            <p class="text-[#96317D] font-bold">Бесплатно</p>
+      </div>
+      <hr class="max-w-350 m-auto" />
+      <div class="flex items-center justify-between max-w-350 m-auto p-10">
+        <p>Выезд мастера</p>
+        <p class="text-[#96317D] font-bold">Бесплатно</p>
+      </div>
+      <hr class="max-w-350 m-auto" />
+      <div class="flex items-center justify-between max-w-350 m-auto p-10">
+        <p>Диагностика стиральной машины</p>
+        <p class="text-[#96317D] font-bold">Бесплатно</p>
+      </div>
+      <hr class="max-w-350 m-auto" />
+      <div class="flex items-center justify-between max-w-350 m-auto p-10">
+        <p>Замена блока питания</p>
+        <div class="flex gap-5 font-bold">
+          <p>от 750₽</p>
+          <p>900₽</p>
         </div>
-        <hr class="max-w-350 m-auto">
-        <div class="flex items-center justify-between max-w-350 m-auto p-10">
-            <p>Диагностика стиральной машины</p>
-            <p class="text-[#96317D] font-bold">Бесплатно</p>
+      </div>
+      <hr class="max-w-350 m-auto" />
+      <div class="flex items-center justify-between max-w-350 m-auto p-10">
+        <p>Замена помпы</p>
+        <div class="flex gap-5 font-bold">
+          <p>от 8880₽</p>
+          <p>1900₽</p>
         </div>
-        <hr class="max-w-350 m-auto">
-        <div class="flex items-center justify-between max-w-350 m-auto p-10">
-            <p>Замена блока питания</p>
-            <div class="flex gap-5 font-bold">
-                <p>от 750₽</p>
-                <p>900₽</p>
-            </div>
+      </div>
+      <hr class="max-w-350 m-auto" />
+      <div class="flex items-center justify-between max-w-350 m-auto p-10">
+        <p>Замена подшипников</p>
+        <div class="flex gap-5 font-bold">
+          <p>от 1450₽</p>
+          <p>750₽</p>
         </div>
-        <hr class="max-w-350 m-auto">
-        <div class="flex items-center justify-between max-w-350 m-auto p-10">
-            <p>Замена помпы</p>
-            <div class="flex gap-5 font-bold">
-                <p>от 8880₽</p>
-                <p>1900₽</p>
-            </div>
-        </div>
-        <hr class="max-w-350 m-auto">
-        <div class="flex items-center justify-between max-w-350 m-auto p-10">
-            <p>Замена подшипников</p>
-            <div class="flex gap-5 font-bold">
-                <p>от 1450₽</p>
-                <p>750₽</p>
-            </div>
-        </div>
-        <hr class="max-w-350 m-auto mb-10">
-        <div class=" text-[#96317D] text-center">
-            <p>Показать все цены</p>
-        </div>
-     </div>
-     <div>
-        <div class="text-center mt-30">
-            <p class=" text-[#96317D] font-bold">В нашем штате 37 сотрудников</p>
-            <h1 class="text-[40px] font-bold">Мы большая команда профессионалов</h1>
-        </div>
-     <div class="flex items-center justify-between max-w-300 m-auto p-10">
+      </div>
+      <hr class="max-w-350 m-auto mb-10" />
+      <div class="text-[#96317D] text-center">
+        <p>Показать все цены</p>
+      </div>
+    </div>
+    <div>
+      <div class="text-center mt-30">
+        <p class="text-[#96317D] font-bold">В нашем штате 37 сотрудников</p>
+        <h1 class="text-[40px] font-bold">Мы большая команда профессионалов</h1>
+      </div>
+      <div
+        class="lg:flex block items-center justify-between max-w-300 m-auto p-10"
+      >
         <div class="w-92.5 p-10">
-            <img class="mb-7.5" src="./Frame 1 (1).png" alt="">
-            <h1 class="text-[25px] font-bold">Александр Федулов</h1>
-            <p class="mb-5">Ремонтник</p>
-            <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
-                <img src="./Vector 15.png" alt="">
-                <p>398 ремонтных работ</p>
-            </div>
-            <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
-                <img src="./Vector 15.png" alt="">
-                <p>3 года в Fixper</p>
-            </div>
-            <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
-                <img src="./Vector 15.png" alt="">
-                <p>Рейтинг Fixper 4,5</p>
-            </div>
+          <img class="mb-7.5" src="./Frame 1 (1).png" alt="" />
+          <h1 class="text-[25px] font-bold">Александр Федулов</h1>
+          <p class="mb-5">Ремонтник</p>
+          <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
+            <img src="./Vector 15.png" alt="" />
+            <p>398 ремонтных работ</p>
+          </div>
+          <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
+            <img src="./Vector 15.png" alt="" />
+            <p>3 года в Fixper</p>
+          </div>
+          <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
+            <img src="./Vector 15.png" alt="" />
+            <p>Рейтинг Fixper 4,5</p>
+          </div>
         </div>
         <div class="w-92.5 p-10">
-            <img class="mb-7.5" src="./Frame 1.png" alt="">
-            <h1 class="text-[25px] font-bold">Александр Федулов</h1>
-            <p class="mb-5">Ремонтник</p>
-            <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
-                <img src="./Vector 15.png" alt="">
-                <p>398 ремонтных работ</p>
-            </div>
-            <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
-                <img src="./Vector 15.png" alt="">
-                <p>3 года в Fixper</p>
-            </div>
-            <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
-                <img src="./Vector 15.png" alt="">
-                <p>Рейтинг Fixper 4,5</p>
-            </div>
+          <img class="mb-7.5" src="./Frame 1.png" alt="" />
+          <h1 class="text-[25px] font-bold">Александр Федулов</h1>
+          <p class="mb-5">Ремонтник</p>
+          <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
+            <img src="./Vector 15.png" alt="" />
+            <p>398 ремонтных работ</p>
+          </div>
+          <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
+            <img src="./Vector 15.png" alt="" />
+            <p>3 года в Fixper</p>
+          </div>
+          <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
+            <img src="./Vector 15.png" alt="" />
+            <p>Рейтинг Fixper 4,5</p>
+          </div>
         </div>
         <div class="w-92.5 p-10">
-            <img class="mb-7.5" src="./Frame 1 (1).png" alt="">
-            <h1 class="text-[25px] font-bold">Александр Федулов</h1>
-            <p class="mb-5">Ремонтник</p>
-            <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
-                <img src="./Vector 15.png" alt="">
-                <p>398 ремонтных работ</p>
-            </div>
-            <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
-                <img src="./Vector 15.png" alt="">
-                <p>3 года в Fixper</p>
-            </div>
-            <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
-                <img src="./Vector 15.png" alt="">
-                <p>Рейтинг Fixper 4,5</p>
-            </div>
+          <img class="mb-7.5" src="./Frame 1 (1).png" alt="" />
+          <h1 class="text-[25px] font-bold">Александр Федулов</h1>
+          <p class="mb-5">Ремонтник</p>
+          <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
+            <img src="./Vector 15.png" alt="" />
+            <p>398 ремонтных работ</p>
+          </div>
+          <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
+            <img src="./Vector 15.png" alt="" />
+            <p>3 года в Fixper</p>
+          </div>
+          <div class="flex items-center gap-2 mb-5 text-[#96317D] font-bold">
+            <img src="./Vector 15.png" alt="" />
+            <p>Рейтинг Fixper 4,5</p>
+          </div>
         </div>
-     </div>
-     </div>
-     <div>
-        <div>
-            <h1 class="text-[45px] font-bold text-center mt-25 mb-10">Нас высоко оценивают</h1>
-        </div>
-     <div class="flex justify-between max-w-350 m-auto p-10">
+      </div>
+    </div>
+    <div>
+      <div>
+        <h1 class="text-[45px] font-bold text-center mt-25 mb-10">
+          Нас высоко оценивают
+        </h1>
+      </div>
+      <div class="lg:flex block justify-between max-w-350 m-auto p-10">
         <div class="bg-[#FAFAFA] p-10">
-            <div class="flex gap-5 items-center mb-7">
-                <img src="./image 14.png" alt="">
-                <div>
-                    <h1 class="text-[25px] font-bold">Владимир Завертайлов</h1>
-                    <p>15 марта 2021</p>
-                </div>
+          <div class="flex gap-5 items-center mb-7">
+            <img src="./image 14.png" alt="" />
+            <div>
+              <h1 class="text-[25px] font-bold">Владимир Завертайлов</h1>
+              <p>15 марта 2021</p>
             </div>
-             <p class="text-[20px]">
-                Знаю AXIS, как опытных экспертов в области создания <br>
-                визуализаций любой сложности. Умеют четко, грамотно <br>
-                и по делу формулировать мысли. Исследовать вопросы <br>
-                . Капают — глубоко. В 3D визуализации стремятся не <br>
-                заработать на клиенте, а решить проблемы и <br>
-                предподнести проект в выгодном свете!
-             </p>
+          </div>
+          <p class="text-[20px]">
+            Знаю AXIS, как опытных экспертов в области создания <br />
+            визуализаций любой сложности. Умеют четко, грамотно <br />
+            и по делу формулировать мысли. Исследовать вопросы <br />
+            . Капают — глубоко. В 3D визуализации стремятся не <br />
+            заработать на клиенте, а решить проблемы и <br />
+            предподнести проект в выгодном свете!
+          </p>
         </div>
         <div class="bg-[#FAFAFA] p-10">
-            <div class="flex gap-5 items-center mb-7">
-                <img src="./image 14.png" alt="">
-                <div>
-                    <h1 class="text-[25px] font-bold">Владимир Завертайлов</h1>
-                    <p>15 марта 2021</p>
-                </div>
-            </div>
-             <p class="text-[20px]">
-                Хочу выразить свою и признательность в решении <br>
-                ремонта стиральной машины Самсунг A600FN, смогли <br>
-                сделать раньше срока и качественно, спасибо большое. <br>
-                Вы лучшие! Всегда буду обращаться к Вам, ваш клиент.
-             </p>
-        </div>
-     </div>
-     </div>
-     <div class="flex items-center justify-between max-w-350 m-auto mt-25 p-10">
-        <img src="./Group 1211.png" alt="">
-        <img src="./1200px-Google_2015_logo 8.png" alt="">
-        <img src="./Group 1223.png" alt="">
-        <img src="./yandex_logo 3.png" alt="">
-        <img src="./Group 1224.png" alt="">
-        <img src="./logo fix 3.png" alt="">
-     </div>
-     <div class="flex justify-between max-w-350 m-auto mt-25 p-10">
-        <div>
-            <h1 class="mb-5 text-[30px] font-bold">Часто <br> задаваемые <br> вопросы</h1>
-            <p>Не нашли ответ на свой вопрос? <br> <span class="text-[#96317D] font-bold ">Оставьте заявку</span>  и наш специалист <br> свяжется  и ответит на ваш вопрос</p>
-        </div>
-        <div>
-            <div class="flex gap-140 items-center p-5 bg-gray-50 mb-7">
-                <p class="font-bold">Где почитать отзывы о вас?</p>
-                <img src="Screenshot 2025-12-26 133943.png" alt="">
-            </div>
-            <div class="flex gap-128 items-center p-5 bg-gray-50 mb-7">
-                <p class="font-bold">Сколько времени длится ремонт?</p>
-                <img src="Screenshot 2025-12-26 133943.png" alt="">
-            </div>
-            <div class="flex gap-93 items-center p-5 bg-gray-50 mb-7">
-                <p class="font-bold">Какие марки стиральных машин вы ремонтируете?</p>
-                <img src="Screenshot 2025-12-26 133943.png" alt="">
-            </div>
-            <div class="flex gap-96 items-center p-5 bg-gray-50 mb-7">
-                <p class="font-bold">Я живу в московской области, сможете приехать?</p>
-                <img src="Screenshot 2025-12-26 133943.png" alt="">
-            </div>
-            <div class="flex gap-119 items-center p-5 bg-gray-50">
-                <p class="font-bold">Как производится контроль качества?</p>
-                <img src="Screenshot 2025-12-26 133943.png" alt="">
-            </div>
-        </div>
-     </div>
-     <div style="background-image: url(./фон.png); background-repeat: no-repeat; background-size: cover; width: 100%; height: 400px; padding-top: 110px; margin-top: 50px;">
-         <div class="bg-white p-10 rounded-2xl flex justify-between max-w-300 m-auto">
+          <div class="flex gap-5 items-center mb-7">
+            <img src="./image 14.png" alt="" />
             <div>
-                <h1 class="text-[50px] font-bold">Вызов мастера</h1>
-                <p>Оставьте заявку сейчас и получите <span class="text-[#96317D] font-bold">скидку 15%</span></p>
+              <h1 class="text-[25px] font-bold">Владимир Завертайлов</h1>
+              <p>15 марта 2021</p>
             </div>
-            <input class="px-20 bg-gray-50 rounded-2xl" type="number" placeholder="Номер телефона">
-            <button class="px-20 bg-[#96317D] text-white text-[20px] rounded-2xl">Заказать звонок</button>
-         </div>
-     </div>
-     <div class=" flex items-center justify-between max-w-350 m-auto p-10 mt-25">
-        <img src="./Screenshot 2020-06-15 at 00.15 2.png" alt="">
-        <div>
-            <h1 class="text-[40px] font-bold mb-7.5">Контактная <br> информация</h1>
-            <p class="text-[20px] font-bold">ул. Стрелковая, д. 14 (офис 1)</p>
-            <p class="mb-7.5">8:00—21:00 без выходных</p>
-            <p class="text-[20px] font-bold">ул. Карла Маркса, д. 33 (диспетчерская)</p>
-            <p class="mb-7.5">7:00—23:00 без выходных</p>
-            <p class="text-[20px] font-bold mb-7.5">iavaisov@gmail.com</p>
-            <button class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold">Позвонить</button>
+          </div>
+          <p class="text-[20px]">
+            Хочу выразить свою и признательность в решении <br />
+            ремонта стиральной машины Самсунг A600FN, смогли <br />
+            сделать раньше срока и качественно, спасибо большое. <br />
+            Вы лучшие! Всегда буду обращаться к Вам, ваш клиент.
+          </p>
         </div>
-     </div>
-     <div class="w-[10%] m-auto p-10">
-        <img src="./лого (1).png" alt="">
-     </div>
-     <div class=" flex items-center justify-between max-w-300 m-auto p-10 text-[20px]">
-        <p>Диагностика</p>
-        <p>Стоимость</p>
-        <p>Мастера</p>
-        <p>Отзывы</p>
-        <p>Вопросы</p>
-        <p>Карта сайта</p>
-     </div>
-     <div class=" flex items-center justify-between max-w-300 m-auto p-10 text-[20px]">
-        <p>Способы оплаты:</p>
-        <img src="./Мир-логотип.png" alt="">
-        <img src="./2000px-Mastercard-logo.png" alt="">
-        <img src="./Visa_Inc._logo.png" alt="">
-        <img src="./58837-google-apple-mobile-pay-wallet-digital-logo.png" alt="">
-        <img src="./2000px-Google_Pay_(GPay)_Logo.png" alt="">
-        <p>Наличные</p>
-     </div>
-     <div class=" flex items-center justify-between max-w-400 m-auto p-10 text-[20px]">
-        <p>Сервис ремонта бытовой и цифровой техники</p>
-        <p>ЧПТУП «МИКАИЛ» 192007601</p>
-     </div>
-</body>
+      </div>
+    </div>
+    <div
+      class="lg:flex block items-center justify-between max-w-350 m-auto mt-25 p-10"
+    >
+      <img src="./Group 1211.png" alt="" />
+      <img src="./1200px-Google_2015_logo 8.png" alt="" />
+      <img src="./Group 1223.png" alt="" />
+      <img src="./yandex_logo 3.png" alt="" />
+      <img src="./Group 1224.png" alt="" />
+      <img src="./logo fix 3.png" alt="" />
+    </div>
+    <div class="lg:flex block justify-between max-w-350 m-auto mt-25 p-10">
+      <div>
+        <h1 class="mb-5 text-[30px] font-bold">
+          Часто <br />
+          задаваемые <br />
+          вопросы
+        </h1>
+        <p>
+          Не нашли ответ на свой вопрос? <br />
+          <span class="text-[#96317D] font-bold">Оставьте заявку</span> и наш
+          специалист <br />
+          свяжется и ответит на ваш вопрос
+        </p>
+      </div>
+      <div>
+        <div class="flex lg:gap-140 items-center p-5 bg-gray-50 mb-7">
+          <p class="font-bold">Где почитать отзывы о вас?</p>
+          <img src="Screenshot 2025-12-26 133943.png" alt="" />
+        </div>
+        <div class="flex lg:gap-128 items-center p-5 bg-gray-50 mb-7">
+          <p class="font-bold">Сколько времени длится ремонт?</p>
+          <img src="Screenshot 2025-12-26 133943.png" alt="" />
+        </div>
+        <div class="flex lg:gap-93 items-center p-5 bg-gray-50 mb-7">
+          <p class="font-bold">Какие марки стиральных машин вы ремонтируете?</p>
+          <img src="Screenshot 2025-12-26 133943.png" alt="" />
+        </div>
+        <div class="flex lg:gap-96 items-center p-5 bg-gray-50 mb-7">
+          <p class="font-bold">
+            Я живу в московской области, сможете приехать?
+          </p>
+          <img src="Screenshot 2025-12-26 133943.png" alt="" />
+        </div>
+        <div class="flex lg:gap-119 items-center p-5 bg-gray-50">
+          <p class="font-bold">Как производится контроль качества?</p>
+          <img src="Screenshot 2025-12-26 133943.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div
+      style="
+        background-image: url(./фон.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        padding-top: 110px;
+        margin-top: 50px;
+      "
+    >
+      <div
+        class="bg-white p-10 rounded-2xl lg:flex block justify-between max-w-300 m-auto"
+      >
+        <div>
+          <h1 class="text-[50px] font-bold">Вызов мастера</h1>
+          <p>
+            Оставьте заявку сейчас и получите
+            <span class="text-[#96317D] font-bold">скидку 15%</span>
+          </p>
+        </div>
+        <input
+          class="px-20 bg-gray-50 rounded-2xl"
+          type="number"
+          placeholder="Номер телефона"
+        />
+        <button class="px-20 bg-[#96317D] text-white text-[20px] rounded-2xl">
+          Заказать звонок
+        </button>
+      </div>
+    </div>
+    <div
+      class="lg:flex block items-center justify-between max-w-350 m-auto p-10 mt-25"
+    >
+      <img src="./Screenshot 2020-06-15 at 00.15 2.png" alt="" />
+      <div>
+        <h1 class="text-[40px] font-bold mb-7.5">
+          Контактная <br />
+          информация
+        </h1>
+        <p class="text-[20px] font-bold">ул. Стрелковая, д. 14 (офис 1)</p>
+        <p class="mb-7.5">8:00—21:00 без выходных</p>
+        <p class="text-[20px] font-bold">
+          ул. Карла Маркса, д. 33 (диспетчерская)
+        </p>
+        <p class="mb-7.5">7:00—23:00 без выходных</p>
+        <p class="text-[20px] font-bold mb-7.5">iavaisov@gmail.com</p>
+        <button
+          class="py-3 px-10 rounded-2xl border-2 border-solid border-[#96317D] text-[#96317D] font-bold"
+        >
+          Позвонить
+        </button>
+      </div>
+    </div>
+    <div class="w-[10%] m-auto p-10">
+      <img src="./лого (1).png" alt="" />
+    </div>
+    <div
+      class="lg:flex block items-center justify-between max-w-300 m-auto p-10 text-[20px]"
+    >
+      <p>Диагностика</p>
+      <p>Стоимость</p>
+      <p>Мастера</p>
+      <p>Отзывы</p>
+      <p>Вопросы</p>
+      <p>Карта сайта</p>
+    </div>
+    <div
+      class="lg:flex block items-center justify-between max-w-300 m-auto p-10 text-[20px]"
+    >
+      <p>Способы оплаты:</p>
+      <img class="mb-5" src="./Мир-логотип.png" alt="" />
+      <img class="mb-5" src="./2000px-Mastercard-logo.png" alt="" />
+      <img class="mb-5" src="./Visa_Inc._logo.png" alt="" />
+      <img
+        class="mb-5"
+        src="./58837-google-apple-mobile-pay-wallet-digital-logo.png"
+        alt=""
+      />
+      <img class="mb-5" src="./2000px-Google_Pay_(GPay)_Logo.png" alt="" />
+      <p>Наличные</p>
+    </div>
+    <div
+      class="lg:flex block items-center justify-between max-w-400 m-auto p-10 text-[20px]"
+    >
+      <p>Сервис ремонта бытовой и цифровой техники</p>
+      <p>ЧПТУП «МИКАИЛ» 192007601</p>
+    </div>
+  </body>
 </html>
